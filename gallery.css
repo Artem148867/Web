@@ -1,0 +1,22 @@
+.container {
+    
+    display: flex;
+    margin-top: 10%;
+    width: 50%;
+    flex-wrap: wrap;
+    background-color: #222121;
+}
+
+#blade {
+    width: 128px;
+    height: 128px;
+}
+
+#blade:hover {
+    cursor: pointer;
+} 
+
+body {
+    background-image: url(https://avatars.mds.yandex.net/i?id=28a4b6258116da0ce3932087f6224d8d_l-8253954-images-thumbs&n=13);
+}
+

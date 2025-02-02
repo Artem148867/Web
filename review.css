@@ -1,0 +1,34 @@
+body {
+    background-color: #ec6592;
+    color: #320333;
+}   
+
+.container {
+    justify-content: center ;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 6%;
+}
+
+textarea {
+    height: 300%;
+    width: 100%;
+    resize: none;
+    background-color: #FFB6C1;
+    border: 2px solid rgb(197, 31, 178);
+    mask-repeat: no-repeat;
+}
+
+::placeholder {
+    color: #320333;
+    padding-top: 23.5%;
+    padding-left: 40%;
+}
+
+button {
+    width: 100%;
+}
+
+.back {
+    color: red;
+}
