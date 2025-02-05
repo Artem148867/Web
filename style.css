@@ -3,23 +3,23 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    background-color: #3e062e;
+    background-color: rgb(42, 34, 34);
 }
 
-img {
+/* img {
     width: 115px;
     height: 115px;
-}
+} */
 
-.logo {
+/* .logo {
     align-items: center;
     display: flex;
     flex-direction: row;
     gap: 10px;
-}
+} */
 
 .nav-bar {
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     gap: 15px;
@@ -32,15 +32,30 @@ img {
     padding: 20px;
     text-decoration: none;
     text-align: center;
-    height: 50%;
+    height: 0%;
     margin: 5px;    
     border-radius: 20px;
-    background-color: #b41387;
+    background-color: #ffffff;
     color: #320333;
 }
 
 .nav-link:hover {
-background-color: #8a0a66;
+  background-color: #dcdcdc;
+  color: #320333;
+}
+
+#dropdownMenuDark {
+  height: 35px;
+  margin-left: 995%;
+  border: none;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #320333;
+}
+
+#dropdownMenuDark:hover {
+  background-color: #dcdcdc;
+  color: #320333;
 }
 
 * {
@@ -54,7 +69,7 @@ background-color: #8a0a66;
 
 body {
     background-image: url(https://avatars.mds.yandex.net/i?id=feefbfb4a6a8678148eeb7cbe1171ddf_l-5280334-images-thumbs&n=13);
-    color: #a10b77;
+    color: #ffffff; 
     background-size: cover;
 }
 
@@ -81,7 +96,7 @@ body {
   
   /* При наведении на карточку - меняем цвет тени */
   .card:hover {
-    box-shadow: 1px 1px 18px 13px rgba(25, 25, 112);
+    box-shadow: 1px 1px 18px 13px rgba(192, 192, 192);
   }
   
   .card__top {
@@ -99,7 +114,7 @@ body {
     width: 100%;
     height: 100%;
   }
-  
+
   .card__image > img {
     width: 100%;
     height: 100%;
@@ -211,6 +226,6 @@ body {
 }
 
 .Discounts {
-    margin-left: 36%;
+    margin-left: 37.25%;
     padding-bottom: 2%;
 }
