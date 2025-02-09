@@ -1,70 +1,6 @@
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    background-color: rgb(42, 34, 34);
-}
-
-/* img {
-    width: 115px;
-    height: 115px;
-} */
-
-/* .logo {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-} */
-
-.nav-bar {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    align-items: center;
-}
-
-.nav-link {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    text-decoration: none;
-    text-align: center;
-    height: 0%;
-    margin: 5px;    
-    border-radius: 20px;
-    background-color: #ffffff;
-    color: #320333;
-}
-
-.nav-link:hover {
-  background-color: #dcdcdc;
-  color: #320333;
-}
-
-#dropdownMenuDark {
-  height: 35px;
-  margin-left: 995%;
-  border: none;
-  border-radius: 15px;
-  background-color: #ffffff;
-  color: #320333;
-}
-
-#dropdownMenuDark:hover {
-  background-color: #dcdcdc;
-  color: #320333;
-}
-
 * {
     margin: 0;
     padding: 0;
-}
-
-.logo-text {
-    height: 30px;
 }
 
 body {
@@ -210,15 +146,19 @@ body {
 
 #card3 {
     margin-left: 19%;
-    margin-right: -9%;
+    margin-right: -6.5%;
 }
 
 #card4 {
-  margin-right: -9%;
+  margin-right: 13.7%;
 }
 
 #card5 {
-  margin-right: 15.62%;
+  margin-right: 17%;
+}
+
+#card6 {
+  margin-right: 0.25%;
 }
 
 .card__add:hover {

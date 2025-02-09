@@ -16,22 +16,41 @@
              <h1 class="logo-text">Blox fruit shop</h1>
         </img>
         </div> -->
-        <div class="nav-bar">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="review.html" class="nav-link">Fruits</a>
-            <a href="forma.html" class="nav-link">Events</a>
-            <div class="dropdown">
-               <button class="dropdown-toggle" type="button" id="dropdownMenuDark" data-bs-toggle="dropdown" aria-expanded="false">
-                    Our partners
-               </button>
-               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuDark">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-               </ul>
-            </div>            
-        </div>
     </div>
+
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+    <div class="container-fluid">
+       <a class="navbar-brand" href="index.html">Главная</a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse show" id="navbarDark">
+         <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+            <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="#">Билды</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+  <li><a class="dropdown-item" href="#">Action</a></li>
+  <li><a class="dropdown-item" href="#">Another action</a></li>
+  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+             </li>
+            <li class="nav-item">
+               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+         </ul>
+         <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+         </form>
+       </div>
+    </div>
+ </nav>
+               
 <div class="container">
     <div class="Discounts">
         <h1>WINTER SALE!</h1>   
@@ -183,7 +202,35 @@
                 </div>
             </div>
         </div> 
-        
+        <div class="col" id="card6">
+            <!-- Карточка товара -->
+        <div class="card">
+            <!-- Верхняя часть -->
+            <div class="card__top">
+            <!-- Изображение-ссылка товара -->
+            <a href="#" class="card__image">
+                <img
+                src="https://static.wikia.nocookie.net/roblox-blox-piece/images/b/b4/Dragon_%28West%29Icon.png/revision/latest?cb=20241215200412"
+                alt="Dragon fruit(east)"/>
+            </a>
+            <!-- Скидка на товар -->
+            <div class="card__label">-10%</div>
+            </div>
+            <!-- Нижняя часть -->
+            <div class="card__bottom">
+            <!-- Цены на товар (с учетом скидки и без)-->
+            <div class="card__prices">
+                <div class="card__price">1350</div>
+            </div>
+            <!-- Ссылка-название товара -->
+            <a href="#" class="card__title">
+                Dragon fruit(west)
+            </a>
+            <!-- Кнопка добавить в корзину -->
+            <button class="card__add">В корзину</button>
+            </div>
+        </div>
+    </div>  
     </div>
     </div>
 </div>
