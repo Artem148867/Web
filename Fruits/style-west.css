@@ -15,3 +15,24 @@ body {
 #col1 {
     padding-left: 50%;
 }
+
+.Dragon {
+    background-color: rgba(83, 83, 83, 0.975);
+    border-radius: 10px;
+    
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    margin-left: 9%;
+}
+
+.type {
+    color: #ffff;
+}
+
+.beast {
+    color: rgb(226, 226, 0);
+    text-decoration: none;  
+}
