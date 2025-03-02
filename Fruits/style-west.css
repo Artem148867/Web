@@ -19,7 +19,6 @@ body {
 .Dragon {
     background-color: rgba(83, 83, 83, 0.975);
     border-radius: 10px;
-    
 }
 
 img {
@@ -46,6 +45,10 @@ img {
     color: black;
 }
 
-.col-4 {
-    background-color: red;
+h3 {
+    margin-left: 20%;
+}
+
+.col-3 {
+    background-color: rebeccapurple;
 }
