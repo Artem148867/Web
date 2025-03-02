@@ -41,8 +41,10 @@ img {
 }
 
 .name {
-    background-color: #ffff;
+    background-color: rgba(138, 138, 138, 0.975);
     color: black;
+    width: 100%;
+    
 }
 
 h3 {
@@ -51,4 +53,8 @@ h3 {
 
 .col-3 {
     background-color: rebeccapurple;
+}
+
+.card-header {
+    background-color: rgba(138, 138, 138, 0.975);
 }
