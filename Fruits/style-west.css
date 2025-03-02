@@ -36,3 +36,12 @@ img {
     color: rgb(226, 226, 0);
     text-decoration: none;  
 }
+
+.mythic {
+    color: rgb(253, 36, 36);
+}
+
+.name {
+    background-color: #ffff;
+    color: black;
+}
