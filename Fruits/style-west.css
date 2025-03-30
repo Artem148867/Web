@@ -58,3 +58,56 @@ h3 {
 .col-3 {
     background-color: rgba(83, 83, 83, 0.975);
 }
+
+#skills-left{
+margin-top: 2%;
+align-items: center;
+}
+
+#skills-right{
+margin-top: 2%;
+align-items: center;
+}
+
+#skills-left-down{
+margin-top: 2%;
+align-items: center;
+width: 650px;
+
+}
+
+#skills-right-down{
+margin-top: 2%;
+align-items: center;
+
+}
+
+#down{
+margin-top: 2%;
+width: 60%;
+margin-left: 20%;
+}
+
+
+#skills-left-tr{
+    margin-top: 2%;      
+    }
+    
+    #skills-right-tr{
+    margin-top: 2%;
+    }
+    
+    #skills-left-down-tr{
+    margin-top: 2%;
+    }
+    
+    #skills-right-down-tr{
+    margin-top: 2%;
+    }
+
+    .card{
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: transform 0.5s ease-in-out;
+        background-color: white;
+    }
