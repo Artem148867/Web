@@ -1,4 +1,10 @@
-body {
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Регистрация</title>
+<style>
+  body {
     background-color: #f9f3f3;
     display: flex;
     justify-content: center;
@@ -41,51 +47,34 @@ body {
     box-shadow: 0 0 8px rgba(255, 20, 147, 0.6);
   }
 
-  #a {
+  button {
     width: 100%;
-    padding: 1%;
+    padding: 10px;
     background-color: #b76e79;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s;
-  }
-
-  #ab {
-
-    width: 104%;
-    padding: 1%;
-    background-color: #b76e79;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s;
-
   }
 
   button:hover {
     background-color: #d88c9a;
   }
+  
+</style>
+</head>
+<body>
 
-  .rose-gold-button {
-    background-color: #b76e79; 
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 15px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 5%;
-  }
+<div class="card">
+  <strong><h1>Регистрация</h1></strong>
+  <form>
+    <input type="text" placeholder="Имя" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Пароль" required>
+    <button type="submit">Зарегистрироваться</button>
+  </form>
+</div>
 
-  .rose-gold-button:hover {
-    background-color: #a05262;
-  }
-
+</body>
+</html>
