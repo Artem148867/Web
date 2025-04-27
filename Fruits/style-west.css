@@ -1,10 +1,12 @@
 body {
     background-image: url(https://avatars.mds.yandex.net/i?id=feefbfb4a6a8678148eeb7cbe1171ddf_l-5280334-images-thumbs&n=13);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #container {
-    background-color: rgba(24, 24, 24, 0.975);
+    background-color: #000000b4;
     background-repeat: no-repeat;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -58,51 +60,45 @@ h3 {
     background-color: rgba(83, 83, 83, 0.975);
 }
 
-#skills-left{
-margin-top: 2%;
-align-items: center;
+.character-section {
+    background: linear-gradient(135deg, #000000, #2c003e); /* Мрачный градиент */
+    padding: 40px;
+    text-align: center;
+    border: 3px solid #ffd700; /* Золотая рамка */
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); /* Золотое свечение */
 }
 
-#skills-right{
-margin-top: 2%;
-align-items: center;
+.character-title {
+    font-size: 36px;
+    color: #ffd700; /* Золотой заголовок */
+    text-shadow: 0 0 10px #ff69b4; /* Лёгкое розовое свечение */
 }
 
-#skills-left-down{
-margin-top: 2%;
-align-items: center;
-width: 650px;
-
+.character-description {
+    font-size: 18px;
+    color: #e0e0e0;
+    margin: 20px 0;
 }
 
-#skills-right-down{
-margin-top: 2%;
-align-items: center;
-
-}
-
-#down{
-margin-top: 2%;
-width: 60%;
-margin-left: 20%;
+.video-container {
+    border: 2px solid #ff69b4; /* Розовая рамка вокруг видео */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.7); /* Энергетическая аура */
 }
 
 
-#skills-left-tr{
-    margin-top: 2%;      
-    }
-    
-    #skills-right-tr{
-    margin-top: 2%;
-    }
-    
-    #skills-left-down-tr{
-    margin-top: 2%;
-    }
-    
-    #skills-right-down-tr{
-    margin-top: 2%;
-    }
+#west-1{
+   margin-left: 25%;
+}
+
+#west-6{
+    width: 100%;
+    height: 100vh; 
+}
+
 
     .card{
         border-radius: 10px;
