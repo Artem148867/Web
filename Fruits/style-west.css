@@ -5,14 +5,18 @@ body {
     background-attachment: fixed;
 }
 
-#container {
-    background-color: #000000b4;
-    background-repeat: no-repeat;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    flex-wrap: wrap;
-}
+.container1 {
+  
+ 
+    background: linear-gradient(135deg, rgb(13, 13, 13), rgb(26, 26, 29), rgb(128, 0, 128), rgb(255, 215, 0));
+    background-attachment: fixed;  /* Фон остаётся на месте при прокрутке */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+      
+   
+      }
+      
 
 #col1 {
     padding-left: 50%;
@@ -35,22 +39,8 @@ body {
     color: #ffff;
 }
 
-.beast {
-    color: rgb(226, 226, 0);
-    text-decoration: none;  
-}
 
-.mythic {
-    color: rgb(253, 36, 36);
-}
 
-.name {
-    background-color: rgba(139, 139, 139, 0.975);
-    color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    text-align: center;
-}
 
 h3 {
     margin-left: 20%;
@@ -60,31 +50,36 @@ h3 {
     background-color: rgba(83, 83, 83, 0.975);
 }
 
+
+
+
+
+
 .character-section {
     background: linear-gradient(135deg, #000000, #2c003e); /* Мрачный градиент */
-    padding: 40px;
+    padding: 6%;
     text-align: center;
     border: 3px solid #ffd700; /* Золотая рамка */
-    margin: 20px;
-    border-radius: 15px;
+    margin: 2%;
+    border-radius: 5%;
     box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); /* Золотое свечение */
 }
 
 .character-title {
-    font-size: 36px;
+    font-size: 200%;
     color: #ffd700; /* Золотой заголовок */
     text-shadow: 0 0 10px #ff69b4; /* Лёгкое розовое свечение */
 }
 
 .character-description {
-    font-size: 18px;
+    font-size: 180%;
     color: #e0e0e0;
-    margin: 20px 0;
+    margin: 2% 0;
 }
 
 .video-container {
     border: 2px solid #ff69b4; /* Розовая рамка вокруг видео */
-    padding: 10px;
+    padding: 5%;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(255, 105, 180, 0.7); /* Энергетическая аура */
 }
@@ -96,7 +91,7 @@ h3 {
 
 #west-6{
     width: 100%;
-    height: 100vh; 
+     
 }
 
 
@@ -106,3 +101,76 @@ h3 {
         transition: transform 0.5s ease-in-out;
         background-color: white;
     }
+
+    #kitcol-10{
+  
+margin-left: 10%;      
+            
+    }
+
+
+    ANIMATIONS
+
+    .buttons {
+    margin-bottom: 5%;
+  }
+
+  button {
+     border: 2px solid #ffd700;
+    border-radius: 10px;
+    box-shadow: #ffd700;
+    background: linear-gradient(135deg, #800080, #00BFFF, #FF6F61);
+    color: white;
+    border: none;
+    padding: 2% 10%;
+    margin: 1%;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.2);
+  }
+
+
+  .cards {
+   
+    display: none;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .active {
+    display: flex;
+    animation: fadeIn 0.5s ease-in forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+      transform: scale(1);
+    }
+    to {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+  }
+
+  
+
+.buttons1{
+    margin-left: 15%;
+}
